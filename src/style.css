@@ -1,0 +1,121 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  display: grid;
+  text-align: center;
+  font-family: "Roboto", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+  background-color: #F5F5F5 ;
+}
+
+.img{
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 100%;
+  margin-bottom: 3px;
+}
+
+.name{
+  font-weight: 400;
+  font-size: 24px;
+}
+
+.title{
+  margin-bottom: 10px;
+  font-size: 18px;
+}
+
+.bio{
+  font-size: 14px;
+  margin-bottom: 10px;
+  max-width: 800px;
+}
+
+.location, .email, .time{
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+#app{
+  padding: 10px 20px;
+}
+
+
+
+.footer{
+  position: absolute;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  padding-bottom: 10px;
+}
+
+a{
+  text-decoration: none;
+}
+
+.footer a{
+  color: currentColor;
+}
+
+.social-card{
+  border-radius: 20px;
+  padding: 10px 14px;
+  width: 90%;
+  margin: 10px auto;
+  border: 1px solid currentColor;
+  max-width: 500px;
+}
+
+.social{
+  margin-top: 30px;
+}
+
+.social-card a{
+  color: currentColor;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+
+
+.dark-mode {
+  background-color: #1a1a1a;
+  color: #fff;
+}
+
+.bg-toggle-dark{
+  background-color: #1a1a1a;
+}
+
+#dark-mode-toggle{
+  fill: #F5F5F5;
+  background-color: #F5F5F5;
+  width: 50px;
+  border-radius: 100%;
+  height: 50px;
+  position: absolute;
+  top: 20px;
+  left: 80vw;
+}
+
+
+
+.readex-pro {
+  font-family: "Readex Pro", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings:
+    "HEXP" 0;
+}
